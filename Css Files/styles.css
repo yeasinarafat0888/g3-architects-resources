@@ -70,3 +70,72 @@ button {
   height: 700px;
   margin-bottom: 45px;
 }
+
+/* List Of Features Styles */
+.features-section {
+  display: flex;
+}
+.features-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 301px;
+  margin-top: 85px;
+  gap: 24px;
+}
+.features-contect {
+  margin-left: 76px;
+  margin-top: 287px;
+}
+.features-contect > h3 {
+  font-family: "Work Sans";
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.ash {
+  color: var(--Dark-03, #727272);
+}
+.orange {
+  color: #ff900e;
+}
+.features-contect > p {
+  color: var(--Dark-03, #727272);
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 400;
+}
+.features-contect button{
+  margin-top: 32px;
+}
+
+/* Media Quires For Website */
+
+/* -----Mobile View---- */
+@media screen and (max-width: 576px) {
+  nav {
+    margin: 0 auto;
+  }
+  .nav-bar {
+    flex-direction: column;
+  }
+  .nav-logo {
+    margin: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 5px;
+  }
+  .nav-logo > h2 {
+    margin: 0px;
+  }
+  .nav-menu {
+    flex-direction: column;
+    margin: 0px;
+  }
+  .banner {
+    margin: 0px;
+  }
+  .banner img {
+    width: 400px;
+    height: 300px;
+  }
+}

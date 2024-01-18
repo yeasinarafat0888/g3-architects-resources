@@ -1,0 +1,72 @@
+/* Common Styles */
+body {
+  margin: 0 auto;
+}
+
+/* Navigation Bar Styles */
+nav {
+  background: rgba(255, 144, 14, 0.1);
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-logo {
+  margin-left: 228px;
+  margin-top: 50px;
+  color: var(--Dark-01, #131313);
+  font-family: "Work Sans";
+  font-size: 45px;
+  font-weight: 700;
+}
+.nav-menu {
+  display: flex;
+  margin-right: 240px;
+  margin-top: 63px;
+  gap: 50px;
+  color: var(--Dark-02, #424242);
+  font-family: "Work Sans";
+  font-size: 18px;
+  font-weight: 500;
+}
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.brand-new {
+  margin-left: 116px;
+}
+.banner > h1 {
+  color: var(--Dark-01, #131313);
+  font-family: "Work Sans";
+  font-size: 64px;
+  font-weight: 700;
+  margin-top: 205px;
+}
+.banner > p {
+  color: var(--Dark-03, #727272);
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 32px;
+}
+button {
+  border-radius: 8px;
+  background: #ff900e;
+  color: #fff;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-weight: 600;
+  border: 0px;
+  padding: 21px;
+  margin-top: 32px;
+  margin-bottom: 50px;
+}
+.banner img {
+  width: 1440px;
+  height: 700px;
+  margin-bottom: 45px;
+}

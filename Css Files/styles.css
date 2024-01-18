@@ -14,7 +14,7 @@ nav {
 }
 .nav-logo {
   margin-left: 228px;
-  margin-top: 50px;
+  margin-top: 0px;
   color: var(--Dark-01, #131313);
   font-family: "Work Sans";
   font-size: 45px;
@@ -23,7 +23,7 @@ nav {
 .nav-menu {
   display: flex;
   margin-right: 240px;
-  margin-top: 63px;
+  margin-top: 0px;
   gap: 50px;
   color: var(--Dark-02, #424242);
   font-family: "Work Sans";
@@ -43,7 +43,8 @@ nav {
   font-family: "Work Sans";
   font-size: 64px;
   font-weight: 700;
-  margin-top: 205px;
+  margin-top: 42px;
+  margin-bottom: 0px;
 }
 .banner > p {
   color: var(--Dark-03, #727272);
@@ -104,8 +105,72 @@ button {
   font-size: 16px;
   font-weight: 400;
 }
-.features-contect button{
+.features-contect button {
   margin-top: 32px;
+}
+
+/* Love & Enjoy Section */
+.love-enjoy {
+  display: flex;
+  margin-top: 130px;
+  gap: 146px;
+}
+.vertical{
+  display: flex;
+  gap: 21px;
+}
+.vl {
+  width: 5px;
+  height: 106px;
+  background: #ff900e;
+}
+.group-title {
+  color: var(--Dark-01, #131313);
+  font-family: "Work Sans";
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.group-description {
+  color: var(--Dark-03, #727272);
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.love-enjoy-content {
+  margin-left: 240px;
+}
+.all-group-section {
+  display: grid;
+  row-gap: 20px;
+}
+.group-section {
+  width: 556px;
+  height: 141px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+  row-gap: 20px;
+}
+.group-section > h6 {
+  color: var(--Dark-01, #131313);
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.group-section > p {
+  color: var(--Dark-03, #727272);
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 400;
+}
+.love-enjoy-img {
+  width: 708px;
+  height: 982px;
+  margin-right: 240px;
 }
 
 /* Media Quires For Website */

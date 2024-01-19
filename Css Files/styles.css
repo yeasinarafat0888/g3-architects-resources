@@ -115,7 +115,7 @@ button {
   margin-top: 130px;
   gap: 146px;
 }
-.vertical{
+.vertical {
   display: flex;
   gap: 21px;
 }
@@ -167,10 +167,125 @@ button {
   font-size: 16px;
   font-weight: 400;
 }
+
+/* problem */
+
+.ten-year {
+  position: absolute;
+  right: -50px;
+  border: 0px;
+  border-radius: 8px;
+  background: #ff900e;
+  width: 342px;
+  height: 200px;
+}
 .love-enjoy-img {
   width: 708px;
   height: 982px;
   margin-right: 240px;
+}
+
+/* Some Fact Styles */
+.some-fact-section > h3 {
+  color: var(--Dark-01, #131313);
+  font-family: "Work Sans";
+  font-size: 45px;
+  font-weight: 700;
+  margin-top: 168px;
+  margin-left: 240px;
+}
+.some-fact-section > p {
+  color: var(--Dark-03, #727272);
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 24px;
+  margin-bottom: 100px;
+  margin-left: 240px;
+}
+.some-fact-category {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 290px;
+  margin-right: 290px;
+  margin-bottom: 180px;
+}
+.award,
+.project,
+.clients,
+.email {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  width: 241.831px;
+  height: 241.831px;
+}
+.award > h5 {
+  color: var(--Dark-02, #424242);
+  font-family: "Work Sans";
+  font-size: 45px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.project > h5 {
+  color: var(--Dark-02, #424242);
+  font-family: "Work Sans";
+  font-size: 45px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.clients > h5 {
+  color: var(--Dark-02, #424242);
+  font-family: "Work Sans";
+  font-size: 45px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.email > h5 {
+  color: var(--Dark-02, #424242);
+  font-family: "Work Sans";
+  font-size: 45px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.award > p {
+  color: var(--Dark-03, #727272);
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.project > p {
+  color: var(--Dark-03, #727272);
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.clients > p {
+  color: var(--Dark-03, #727272);
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.email > p {
+  color: var(--Dark-03, #727272);
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /* Media Quires For Website */

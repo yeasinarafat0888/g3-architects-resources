@@ -170,19 +170,34 @@ button {
 
 /* problem */
 
-/* .ten-year {
+ .ten-year {
   position: absolute;
-  right: -50px;
+  left: -92px;
+  bottom: -77px;
   border: 0px;
   border-radius: 8px;
   background: #ff900e;
-  width: 342px;
-  height: 200px;
-} */
+  padding-top: 46px;
+  padding: 43px;
+text-align: center;}
+.ten{
+color: #FFF;
+text-align: center;
+font-family: "Work Sans";
+font-size: 65px;
+font-weight: 700;
+}
+.experience{
+  color: #FFF;
+font-family: "Work Sans";
+font-size: 25px;
+font-weight: 500;
+}
 .love-enjoy-img {
   width: 708px;
   height: 982px;
   margin-right: 240px;
+  position: relative;
 }
 
 /* Some Fact Styles */

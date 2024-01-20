@@ -315,19 +315,18 @@ button {
 
 /* Footer Styles */
 .footer {
-  width: 1440px;
-  height: 100px;
+ 
   border-radius: 8px;
   background: #fff4e7;
   margin-left: 240px;
   margin-right: 240px;
   margin-bottom: 216px;
+  padding-top: 39px;
+  padding-bottom: 38px;
 }
 small {
   color: var(--Dark-02, #424242);
-  margin-top: 39px;
   margin-left: 410px;
-  text-align: center;
   font-family: "Work Sans";
   font-size: 20px;
   font-weight: 400;
